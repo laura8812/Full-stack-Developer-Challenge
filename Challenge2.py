@@ -1,5 +1,5 @@
 def cuadrados_ordenados(matriz, S):
-    SS = S * S
+    SS = S * 11
     resultado = []
     
     # Calcular los cuadrados y agregar los que están en el rango
@@ -17,7 +17,7 @@ def cuadrados_ordenados(matriz, S):
     # Imprimir el resultado
     print("Resultado:", resultado)
 
-# Solicitar al usuario que ingrese la matriz de números y el valor de S
+# Solicitar al usuario que ingrese la matriz de números 
 entrada = input("Ingrese los números separados por comas: ")
 S = 7
 
